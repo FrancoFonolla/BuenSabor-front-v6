@@ -1,9 +1,7 @@
 import React from 'react';
 import { Box, Container, Grid, Typography, Divider, useMediaQuery } from '@mui/material';
-import BenefitsSection from './BenefitsSection';
 import TestimonialsSection from './TestimonialsSection';
 import ContactSection from './ContactSection';
-import AboutUsSection from './AboutUsSection';
 import PopularItems from './PopularItems';
 import PromocionSection from './PromocionSection';
 
