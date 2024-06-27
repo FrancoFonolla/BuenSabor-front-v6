@@ -25,10 +25,10 @@ const Main: React.FC<ProductosProps> = ({ addToCart }) => {
               gutterBottom
               sx={{ fontSize: isMobile ? '1.85rem' : '3rem', fontWeight: 'semibold' }}
             >
-              Buen Sabor: Deliciosa Comida Rápida
+              El Buen Sabor: Sabrosuras y más...
             </Typography>
             <Typography variant="body1" paragraph>
-              Disfruta de una amplia variedad de comidas rápidas deliciosas entregadas directamente a tu puerta.
+              Con nuestro nuevo servicio de delivery no tendrás que moverte de casa para disfrutar del bune sabor.
             </Typography>
           </Grid>
           <Grid item xs={12} md={6}>
