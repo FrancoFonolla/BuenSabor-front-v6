@@ -13,26 +13,26 @@ const TestimonialsSection: React.FC = () => {
         align="center"
         sx={{ fontSize: isMobile ? '1.5rem' : '2rem' }}
       >
-        Testimonios de Clientes
+        Nuestros Clientes:
       </Typography>
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <Paper elevation={3} sx={{ p: 3, borderRadius: 4 }}>
             <Typography variant="h6" gutterBottom sx={{ fontSize: isMobile ? '1rem' : '1.25rem' }}>
-              "Increíble variedad de sabores"
+              "La variedad: 10/10"
             </Typography>
             <Typography variant="body2">
-            Este restaurante es increíble por su variedad constante de platos nuevos para descubrir. Cada visita es una deliciosa experiencia.
+              El lugar tiene variedad de platos nunca vista sin dejar de lado variedades ni perder calidad. Definitivamente volvería.
             </Typography>
           </Paper>
         </Grid>
         <Grid item xs={12} md={6}>
           <Paper elevation={3} sx={{ p: 3, borderRadius: 4 }}>
             <Typography variant="h6" gutterBottom sx={{ fontSize: isMobile ? '1rem' : '1.25rem' }}>
-              "Entrega rápida y comida fresca"
+              "No mienten con el delívery"
             </Typography>
             <Typography variant="body2">
-            Siempre impresionado por la rapidez y la frescura de mi pedido en este lugar. Nunca decepciona y lo recomiendo sin reservas.
+              El delivery es super rápido, mi comida aún estaba caliente cuando llegó. Nunca antes visto, nuevo cliente.
             </Typography>
           </Paper>
         </Grid>

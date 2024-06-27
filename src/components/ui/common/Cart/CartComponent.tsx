@@ -28,7 +28,7 @@ const CartComponent: React.FC<CartComponentProps> = ({ cart, open, onClose, onAd
     <Drawer anchor="right" open={open} onClose={onClose}>
         <List sx={{ width: 300 }}>
           <ListItem>
-            <Typography variant="h6">Carrito de Compras</Typography>
+            <Typography variant="h6">Tu Buen Pedido</Typography>
           </ListItem>
           {cart.map((product) => (
             <ListItem key={product.id}>
@@ -59,7 +59,7 @@ const CartComponent: React.FC<CartComponentProps> = ({ cart, open, onClose, onAd
               color="primary"
               fullWidth
             >
-              Realizar Pedido
+              Realizar mi Pedido
             </Button>
           </ListItem>
 
@@ -70,7 +70,7 @@ const CartComponent: React.FC<CartComponentProps> = ({ cart, open, onClose, onAd
               fullWidth
               onClick={onClearCart}
             >
-              Vaciar Carrito
+              Vaciar mi Pedido
             </Button>
           </ListItem>
         </List>

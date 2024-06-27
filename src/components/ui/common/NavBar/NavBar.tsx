@@ -79,7 +79,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart, onCartClick }) => {
             }}
           >
             <img src="./public/buen_sabor_logo.png" width={50} />
-            <Typography variant="h6">Buen Sabor</Typography>
+            <Typography variant="h6">El Buen Sabor</Typography>
           </Link>
         </Box>
         {isMobile ? (

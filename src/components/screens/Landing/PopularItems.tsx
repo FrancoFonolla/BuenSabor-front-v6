@@ -46,7 +46,7 @@ const PopularItems: React.FC<PopularItemsProps> = ({ addToCart }) => {
     return (
         <Container sx={{ my: 4 }}>
             <Typography variant="h4" align="center" gutterBottom sx={{ fontSize: isMobile ? '1.5rem' : '2rem' }}>
-                Explora nuestros productos
+                Nuestras delicias:
             </Typography>
             <br/>
             <Box display={{ xs: 'none', md: 'block' }}>
@@ -69,7 +69,7 @@ const PopularItems: React.FC<PopularItemsProps> = ({ addToCart }) => {
             </Box>
             <Box textAlign="center" sx={{ mt: 4 }}>
                 <Button variant="contained" color="primary" onClick={() => navigate('/productos')}>
-                    Ver todos los productos
+                    Ver más...
                 </Button>
             </Box>
         </Container>

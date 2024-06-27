@@ -31,15 +31,15 @@ const Main: React.FC<ProductosProps> = ({ addToCart }) => {
               gutterBottom
               sx={{ fontSize: isMobile ? '1.85rem' : '3rem', fontWeight: 'semibold' }}
             >
-              Buen Sabor: Saborea exquisita comida rápida.
+              El Buen Sabor: Sabrosuras y más...
             </Typography>
             <Typography variant="body1" paragraph>
-            Descubre una increíble selección de platos rápidos y sabrosos, entregados cómodamente hasta tu puerta.
+            Ahora... ¡TAMBIÉN A DOMICILIO!
             </Typography>
           </Grid>
           <Grid item xs={12} md={6}>
             <img
-              src="https://www.dzoom.org.es/wp-content/uploads/2019/04/fotografia-de-comida-platos7-810x540.jpg"
+              src="https://thefoodtech.com/wp-content/uploads/2023/08/delivery-alimentos-bebidas.jpg"
               alt="Comida Rápida"
               style={{ width: '100%', height: 'auto', borderRadius: '1rem' }}
             />

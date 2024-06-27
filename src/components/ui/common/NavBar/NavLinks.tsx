@@ -5,8 +5,8 @@ const NavLinks: React.FC = () => {
   return (
     <nav style={{ display: 'flex', gap: '16px' }}>
       <CustomLink to="/">Inicio</CustomLink>
-      <CustomLink to="/productos">Productos</CustomLink>
-      <CustomLink to="/promociones">Promociones</CustomLink>
+      <CustomLink to="/productos">Buenos Productos</CustomLink>
+      <CustomLink to="/promociones">Buenas Promociones</CustomLink>
     </nav>
   );
 };

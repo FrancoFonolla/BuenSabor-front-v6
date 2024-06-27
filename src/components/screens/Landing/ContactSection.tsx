@@ -13,7 +13,7 @@ const ContactSection: React.FC = () => {
         align='center'
         sx={{ fontSize: isMobile ? '1.5rem' : '2rem' }}
       >
-        Contáctanos
+        ¡Sumate a la familia Sabrosa!
       </Typography>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>

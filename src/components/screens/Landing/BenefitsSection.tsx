@@ -15,36 +15,36 @@ const BenefitsSection: React.FC = () => {
         gutterBottom
         sx={{ fontSize: isMobile ? '1.5rem' : '2rem' }}
       >
-        Nuestros Beneficios
+        Nuestras Competencias:
       </Typography>
       <Carousel style={{ width: '100%' }}>
         <Carousel.Item>
           <Box sx={{ pb: 6, width: '100%' }}>
             <Typography variant="h6" align="center" sx={{ fontSize: isMobile ? '1rem' : '1.25rem' }}>
-              Variedad de opciones
+              Opciones para todos...
             </Typography>
             <Typography variant="body2" align="center">
-              Ofrecemos una amplia gama de platos para satisfacer todos los gustos y preferencias.
+              Tenemos una extensa variedad de platos para todos los gustos.
             </Typography>
           </Box>
         </Carousel.Item>
         <Carousel.Item>
           <Box sx={{ pb: 6, width: '100%' }}>
             <Typography variant="h6" align="center" sx={{ fontSize: isMobile ? '1rem' : '1.25rem' }}>
-              Entrega rápida
+              Entregas rápidas...
             </Typography>
             <Typography variant="body2" align="center">
-              Nuestro servicio de entrega rápido garantiza que recibas tu comida caliente y fresca en poco tiempo.
+              Con el servicio de delívery más rápido de la ciudad, le garantizamos que en menos de 28 minutos, usted disfrutará de un Buen Sabor sin salir de casa.
             </Typography>
           </Box>
         </Carousel.Item>
         <Carousel.Item>
           <Box sx={{ pb: 6, width: '100%' }}>
             <Typography variant="h6" align="center" sx={{ fontSize: isMobile ? '1rem' : '1.25rem' }}>
-              Calidad premium
+              Buen Sabor = Buena Calidad
             </Typography>
             <Typography variant="body2" align="center">
-              Utilizamos ingredientes frescos y de alta calidad para asegurar el mejor sabor en cada plato que ofrecemos.
+              Utilizamos los mejores ingredientes seleccionados para garantizar los mejores platos.
             </Typography>
           </Box>
         </Carousel.Item>

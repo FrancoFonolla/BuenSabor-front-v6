@@ -93,7 +93,7 @@ const PromocionModal: React.FC<PromocionModalProps> = ({ open, onClose, promocio
                   ))}
                   <Divider sx={{ my: 2 }} />
                   <Typography variant="body1" gutterBottom>
-                    <strong>Periodo de la promoción:</strong> {new Date(promocion.fechaDesde).toLocaleDateString()} - {new Date(promocion.fechaHasta).toLocaleDateString()}
+                    <strong>Disponible entre:</strong> {new Date(promocion.fechaDesde).toLocaleDateString()} - {new Date(promocion.fechaHasta).toLocaleDateString()}
                   </Typography>
                 </Box>
               </Box>

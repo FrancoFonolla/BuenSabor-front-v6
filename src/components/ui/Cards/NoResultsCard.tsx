@@ -16,10 +16,10 @@ const NoResultsCard: React.FC = () => {
     >
       <SearchOffIcon color="action" sx={{ fontSize: isMobile ? '4rem' : '6rem' }} />
       <Typography variant="h6" sx={{ fontSize: isMobile ? '1.25rem' : '1.5rem', mt: 2 }}>
-        No se encontraron productos
+        No se encontraron Sabores :(
       </Typography>
       <Typography variant="body1" sx={{ fontSize: isMobile ? '0.875rem' : '1rem', mt: 1 }}>
-        Intenta realizar otra búsqueda o ajustar los filtros.
+        Intenta otra búsqueda o ajusta los filtros. ;)
       </Typography>
     </Box>
   );

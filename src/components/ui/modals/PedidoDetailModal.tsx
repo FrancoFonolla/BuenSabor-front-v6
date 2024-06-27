@@ -13,7 +13,7 @@ const PedidoDetailModal: React.FC<PedidoDetailModalProps> = ({ open, onClose, pe
 
   return (
     <Dialog open={open} onClose={onClose}>
-      <DialogTitle>Detalles del Pedido</DialogTitle>
+      <DialogTitle>Detalles de tu Pedido</DialogTitle>
       <DialogContent>
         <Typography variant="body1">ID Pedido: {pedido.id}</Typography>
         <Typography variant="body1">Forma de Pago: {pedido.formaPago}</Typography>

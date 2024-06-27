@@ -113,7 +113,7 @@ const ProductosPage: React.FC<ProductosPageProps> = ({ addToCart }) => {
           gutterBottom
           sx={{ fontSize: isMobile ? '2rem' : '3rem' }}
         >
-          Delicias Rápidas
+          Sabores Rápidos:
         </Typography>
         <Typography 
           variant="subtitle1" 
@@ -121,7 +121,7 @@ const ProductosPage: React.FC<ProductosPageProps> = ({ addToCart }) => {
           textAlign='center'
           sx={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
         >
-          Encuentra tu comida favorita en nuestra tienda
+          Encuentra lo que buscas en nuestros Buenos Sabores...
         </Typography>
         <Box
           display="flex"

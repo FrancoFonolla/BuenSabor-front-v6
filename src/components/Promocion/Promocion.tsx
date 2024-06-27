@@ -64,7 +64,7 @@ const PromocionesPage: React.FC<PromocionesPageProps> = ({ addToCart }) => {
           gutterBottom
           sx={{ fontSize: isMobile ? '2rem' : '3rem' }}
         >
-          Promociones
+          Buenas Promociones:
         </Typography>
         <Typography
           variant="subtitle1"
@@ -72,7 +72,7 @@ const PromocionesPage: React.FC<PromocionesPageProps> = ({ addToCart }) => {
           textAlign='center'
           sx={{ fontSize: isMobile ? '1rem' : '1.25rem' }}
         >
-          Encuentra las mejores promociones en nuestra tienda
+          Las mejores promociones, solo en El Buen Sabor...
         </Typography>
         <Box display="flex" width="100%" mb={2} sx={{ flexDirection: { xs: 'column', sm: 'row' }, gap: { xs: 2, sm: 0 } }}>
           <TextField

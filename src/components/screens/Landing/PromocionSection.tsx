@@ -85,7 +85,7 @@ const PromotionsSection: React.FC<PromotionsSectionProps> = ({ addToCart }) => {
                   gutterBottom
                   sx={{ fontSize: isMobile ? '1.5rem' : '2rem' }}
                 >
-                  Especial del día
+                  Recomendación de la casa:
                 </Typography>
                 <Typography
                   variant="h2"
@@ -131,7 +131,7 @@ const PromotionsSection: React.FC<PromotionsSectionProps> = ({ addToCart }) => {
                 variant="contained"
                 color="primary"
               >
-                Ver más promociones
+                Ver más...
               </Button>
             </Box>
           </>
