@@ -46,11 +46,9 @@ const PopularItems: React.FC<PopularItemsProps> = ({ addToCart }) => {
     return (
         <Container sx={{ my: 4 }}>
             <Typography variant="h4" align="center" gutterBottom sx={{ fontSize: isMobile ? '1.5rem' : '2rem' }}>
-                Explora nuestra variedad de productos
+                Explora nuestros productos
             </Typography>
-            <Typography variant="subtitle1" align="center" gutterBottom sx={{ mb: 3, fontSize: isMobile ? '1rem' : '1.25rem' }}>
-                Descubre una selección de nuestros productos para satisfacer tus gustos y necesidades
-            </Typography>
+            <br/>
             <Box display={{ xs: 'none', md: 'block' }}>
                 <Grid container spacing={4}>
                     {products.slice(0, 3).map((product) => (

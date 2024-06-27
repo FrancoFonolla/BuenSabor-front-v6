@@ -6,7 +6,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import CartProduct from '../../../../types/CartProduct';
 import NavLinks from './NavLinks';
-
+import buen_sabor_logo from './public/buen_sabor_logo';
 interface NavbarProps {
   cart: CartProduct[];
   onCartClick: () => void;
@@ -57,7 +57,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart, onCartClick }) => {
       <Toolbar>
         <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
           <Link to="/" style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <FastfoodIcon />
+            <img src='./public/buen_sabor_logo.png' width={50} />
             <Typography variant="h6">Buen Sabor</Typography>
           </Link>
         </Box>

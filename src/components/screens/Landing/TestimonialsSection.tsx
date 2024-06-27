@@ -22,7 +22,7 @@ const TestimonialsSection: React.FC = () => {
               "Increíble variedad de sabores"
             </Typography>
             <Typography variant="body2">
-              Me encanta la variedad de opciones que ofrecen. Siempre tienen algo nuevo para probar y todo es delicioso.
+            Este restaurante es increíble por su variedad constante de platos nuevos para descubrir. Cada visita es una deliciosa experiencia.
             </Typography>
           </Paper>
         </Grid>
@@ -32,7 +32,7 @@ const TestimonialsSection: React.FC = () => {
               "Entrega rápida y comida fresca"
             </Typography>
             <Typography variant="body2">
-              Nunca tuve que esperar mucho tiempo por mi pedido y siempre llega caliente y fresco. ¡Recomiendo totalmente!
+            Siempre impresionado por la rapidez y la frescura de mi pedido en este lugar. Nunca decepciona y lo recomiendo sin reservas.
             </Typography>
           </Paper>
         </Grid>

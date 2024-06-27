@@ -5,7 +5,7 @@ const AboutUsSection: React.FC = () => {
   const isMobile = useMediaQuery('(max-width:600px)');
 
   return (
-    <Box sx={{ py: 6, backgroundColor: '#c62828', color: '#fff', textAlign: 'center' }}>
+    <Box sx={{ py: 6, backgroundColor: '#FFA500', color: '#fff', textAlign: 'center' }}>
       <Typography 
         variant="h4" 
         component="h2" 

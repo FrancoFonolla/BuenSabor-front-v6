@@ -7,7 +7,7 @@ const BenefitsSection: React.FC = () => {
   const isMobile = useMediaQuery('(max-width:600px)');
 
   return (
-    <Box sx={{ py: 4, backgroundColor: '#c62828', color: '#fff' }}>
+    <Box sx={{ py: 4, backgroundColor: '#FFA500', color: '#fff' }}>
       <Typography
         variant="h4"
         component="h2"
